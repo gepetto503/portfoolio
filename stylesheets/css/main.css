@@ -1,6 +1,12 @@
+li {
+  list-style: none; }
+
 footer .container {
   display: flex;
   justify-content: center; }
+  footer .container ul a, footer .container ul a:hover {
+    text-decoration: none;
+    color: inherit; }
   footer .container ul li {
     list-style: none;
     display: inline;
@@ -25,6 +31,20 @@ footer .container {
 #pokemon {
   background-image: url("../../images/pokemon.PNG"); }
 
+.work-screenshot {
+  width: 100%; }
+  @media (min-width: 1024px) {
+    .work-screenshot {
+      width: 60%;
+      display: inline-block; } }
+
+.work-info {
+  padding: 10px; }
+  @media (min-width: 1024px) {
+    .work-info {
+      width: 40%;
+      display: inline-block; } }
+
 .project-bg-image {
   height: 100%;
   width: 100%;
@@ -42,7 +62,7 @@ footer .container {
   justify-content: center;
   align-items: center; }
 
-.flex-parent {
+.gallery {
   display: flex;
   justify-content: center;
   flex-wrap: wrap; }
@@ -94,9 +114,27 @@ header {
   header {
     padding: 156px 0 100px; } }
 section {
-  padding: 150px 0; }
+  padding: 100px 0; }
+  section h2 {
+    margin-bottom: 20px; }
 
 #contact p, #contact h2 {
   text-align: center; }
+
+.skills {
+  padding: 40px; }
+  .skills .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto; }
+    .skills .skill h4 {
+      margin-bottom: 20px; }
+    @media (min-width: 768px) {
+      .skills .skill {
+        margin: 0; } }
+    .skills .skill ul {
+      padding-left: 0; }
 
 /*# sourceMappingURL=main.css.map */

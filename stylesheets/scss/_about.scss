@@ -1,0 +1,19 @@
+.skills {
+  padding: 40px;
+  .skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    h4 {
+      margin-bottom: 20px;
+    }
+    @include tablet {
+      margin: 0;
+    }
+    ul {
+      padding-left: 0;
+    }
+  }
+}

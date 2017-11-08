@@ -3,6 +3,10 @@ footer {
     display: flex;
     justify-content: center;
     ul {
+      a, a:hover {
+        text-decoration: none;
+        color: inherit;
+      }
       li {
         list-style: none;
         display: inline;
