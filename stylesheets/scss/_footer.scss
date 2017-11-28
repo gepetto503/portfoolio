@@ -2,13 +2,16 @@ footer {
   .container {
     display: flex;
     justify-content: center;
+    a {
+      text-decoration: none;
+    }
     ul {
       li {
         list-style: none;
         display: inline;
         margin-right: 20px;
         opacity: 0.5;
-        text-decoration: none;
+        color: white;
         &:hover {
           cursor: pointer;
           opacity: 1;
